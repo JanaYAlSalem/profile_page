@@ -76,15 +76,50 @@ class HomeScreen extends StatelessWidget {
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.w500,color: Colors.grey[700]),
               ),
               //SizedBox: to space between texts
-              SizedBox(
-                height: 8,
-              ),
-              Text("Mobile Developer",
+              SizedBox(height: 8,),
+              Container(
+                width: 400,
+                child : Text("I’m a Computer and information sciences graduate I’m interested in Programming languages",
                   style: TextStyle(
                       fontSize: 16,
                       fontWeight: FontWeight.w300,
                       color: Colors.grey[700])),
-              Row()
+              ),
+              //SizedBox: to space between texts
+              SizedBox(height: 64,),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                Column(
+                  children: [
+                    Row(
+                      children: [
+                        Icon(Icons.location_on_outlined,
+                        color: Colors.grey[700],),
+                        SizedBox(width: 4,),
+                        Column(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text("Address",style: TextStyle(fontSize: 24),),
+                            Text("SA,Riyadh")
+                          ],
+                        )
+
+                      ],
+                    ),
+                    Row()
+                  ],
+                ),
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(16),
+                  child: Image(image: AssetImage("Asset/images/Capture.JPG"),
+                    height: 200,
+                    width: 150,
+                    fit: BoxFit.cover,
+                )
+                )
+              ],)
             ],
           ),
         ),
