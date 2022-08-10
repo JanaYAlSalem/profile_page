@@ -1,16 +1,7 @@
 # profile_page
 
-A new Flutter project.
+Design a profile page by using Flutter application.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![firstapp](https://user-images.githubusercontent.com/92260239/183808122-419fd7d8-bffc-4b7f-abec-6f1bd1b5a540.JPG)
